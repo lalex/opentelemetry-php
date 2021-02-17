@@ -7,6 +7,9 @@ namespace OpenTelemetry\Sdk;
 use OpenTelemetry\Context\Context;
 use OpenTelemetry\Context\ContextKey;
 
+/**
+ * @extends Context<CorrelationContext>
+ */
 class CorrelationContext extends Context
 {
     /**
